@@ -1,0 +1,116 @@
+
+header{
+    background-color:rgb(211, 202, 202);
+    display: block;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    height: 70px;
+}
+.film{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align:left;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    background-color: rgb(131, 164, 226);
+}
+video{
+    width: 60%;
+    margin-left: 230px;
+}
+
+}
+input[type=text]
+{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px  0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=radio]
+{
+    padding: 12px 20px;
+    margin: 8px  0 0 60px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.gen{
+    margin-left: 60px;
+}
+input[type=email]
+{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px  0;
+    display:block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=number]
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px  0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(3, 7, 36);
+    margin-right: 500px;
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    float:right;
+    width: 35%;
+    box-sizing: border-box;
+    margin:0 50px 0 50px;
+}
+
+.form2{
+    position: relative;
+}
+h2{
+    text-align: center;
+}
+.education{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: darkkhaki;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    width: 500px;
+    text-align: left;
+    color: brown;
+    font-size: 20px;
+}
+td{
+    height: 25px;
+    font-weight: bold;
+}
+.block{
+    margin: 0;
+}
+label,b{
+    color: whitesmoke;
+    font-style: oblique;
+    display: block;
+}
