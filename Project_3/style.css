@@ -1,0 +1,50 @@
+.navbar{
+    background-color: cornflowerblue;
+}
+.image{
+    float: right;
+    display: inline;
+    width: 34%;
+}
+form{
+    color:white;
+}
+.form-control{
+    width: 50%;
+}
+.container-fluid{
+    background-color: rgb(110, 52, 86);
+}
+.container-fluidSecondContainer{
+    background-color: rgb(71, 46, 110);
+    padding: 0;
+    margin:0;
+}
+table,th,td{
+    border: 1px solid black;
+}
+th,td{
+    color: white;
+}
+.container-fluidThirdContainer{
+    background-color: chartreuse;
+}
+.col1{
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.col2{
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.col3{
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+body{
+    background-color: gray;
+}
+
