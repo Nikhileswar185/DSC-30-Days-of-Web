@@ -1,0 +1,35 @@
+h2{
+    text-align: center;
+    margin: 10px 0 10px 10px;
+    color: blue;
+}
+.xy{
+    width: 50%;
+}
+.table{
+    width: 60%;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+#green{
+    background-color:green ;
+    color: white;
+    font-weight: bolder;
+
+}
+#Yellow{
+    background-color: rgb(201, 201, 56);
+    color: white;
+    font-weight: bolder;
+}
+#red{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+#final{
+    margin: 10px 0 0 600px;
+    border: 1px solid black;
+    background-color: rgb(162, 162, 231);
+}
