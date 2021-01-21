@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+  </head>
+  <body>
+      <h2>Fill the given details</h2>
+
+<div class="container-fluid" id="about">
+
+  <form id="form" method="POST" onsubmit="return textbox();">
+      <div class="form-group">
+        <label for="fname">First name</label>
+        <input type="text" class="form-control" id="fname">
+        </div>
+
+      <div class="form-group">
+         <label for="lname">Last name</label>
+         <input type="text" class="form-control" id="lname" >
+         </div>
+    
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+   <div class="form-group">
+     <label for="age">Age</label>
+    <input type="number" id="age">
+</div>
+<div class="form-group">
+  <label for="phone">Mobile Number</label>
+  <input type="tel" id="phone" class="form-control">
+
+</div>
+<div class="form-group">
+    <label for="feedback">Feedback:</label>
+    <input type="text" id="feedback" class="form-control" style="height: 100px;">
+    <small id="feedback" class="form-text text-muted">Drop your valuable feedback here</small>
+</div>
+<div class="form-group" id="btn">
+  <button type="submit" value="submit" onclick="data()" >submit</button>
+</div>
+</form>
+</div>
+
+<div class="container-fluidSecondContainer">
+  <h3>Confirm the Details</h3>
+  <table>
+    <tr>
+      <td id=a>First Name:</td>
+      <td id="b1">  ---  </td>
+    </tr>
+
+      <tr>
+        <td id="a">Last Name:</td>
+        <td id="b2">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Email:</td>
+        <td id="b3">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Age:</td>
+        <td id="b4">  ---  </td>
+      </tr>
+      <tr>
+        <td id="a">Mobile number:</td>
+        <td id="b5">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Feedback:</td>
+        <td id="b6">  ---  </td>
+      </tr>
+  </table>
+  <a href=msg.html><button type="button" id="last">Final submission</button></a>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
