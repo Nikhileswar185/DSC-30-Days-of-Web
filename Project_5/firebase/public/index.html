@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style3.css">
+    
+  </head>
+  <body>
+      <h2>Fill the given details</h2>
+
+<div class="container-fluid" id="about">
+
+  <form id="form" method="POST" onsubmit="return textbox();">
+      <div class="form-group">
+        <label for="fname">First name</label>
+        <input type="text" class="form-control" id="fname">
+        </div>
+
+      <div class="form-group">
+         <label for="lname">Last name</label>
+         <input type="text" class="form-control" id="lname" >
+         </div>
+    
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+   <div class="form-group">
+     <label for="age">Age</label>
+    <input type="number" id="age">
+</div>
+<div class="form-group">
+  <label for="phone">Mobile Number</label>
+  <input type="tel" id="phone" class="form-control">
+
+</div>
+<div class="form-group">
+    <label for="feedback">Feedback:</label>
+    <input type="text" id="feedback" class="form-control" style="height: 100px;">
+    <small id="feedback" class="form-text text-muted">Drop your valuable feedback here</small>
+</div>
+<div class="form-group" id="btn">
+  <button type="submit" value="submit" onclick="data()" >submit</button>
+</div>
+</form>
+</div>
+
+<div class="container-fluidSecondContainer" id="details">
+  <h3>Confirm the Details</h3>
+  <form action="message.html" onsubmit="alert();">
+  <table>
+    <tr>
+      <td id=a>First Name:</td>
+      <td id="b1">  ---  </td>
+    </tr>
+
+      <tr>
+        <td id="a">Last Name:</td>
+        <td id="b2">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Email:</td>
+        <td id="b3">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Age:</td>
+        <td id="b4">  ---  </td>
+      </tr>
+      <tr>
+        <td id="a">Mobile number:</td>
+        <td id="b5">  ---  </td>
+      </tr>
+
+      <tr>
+        <td id="a">Feedback:</td>
+        <td id="b6">  ---  </td>
+      </tr>
+<br>
+  </table>
+  <button type="button" id="last">Final submission</button>
+  </form>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD5iXAsB3XqMB3ss3Rvx-qWAO8rVO4BsMY",
+    authDomain: "dsc-proj5.firebaseapp.com",
+    projectId: "dsc-proj5",
+    storageBucket: "dsc-proj5.appspot.com",
+    messagingSenderId: "1009460094832",
+    appId: "1:1009460094832:web:d10962b17f50770d6511b5",
+    measurementId: "G-0MFND5WCDV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db=firebase.database();
+</script>
+
+<script src="script3.js"></script>
+</html>
